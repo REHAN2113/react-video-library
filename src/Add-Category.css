@@ -1,9 +1,11 @@
 #add-category-con {
     height: 100%;
-    background-image: url("/add-video-bg2.jpg");
+    background-image: url('/public/background.jpg');
+
     color: white;
 }
 
+  
 #add-category-sub-con {
     height: 92%;
     width: 100%;
