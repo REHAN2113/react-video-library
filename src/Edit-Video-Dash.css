@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/public/add-video-bg2.jpg");
+    background-image: url("/add-video-bg2.jpg");
     height: 92%;
 }
 
@@ -12,7 +12,7 @@
 }
 
 #edit-parent-con {
-    background-image: url("/public/add-video-bg2.jpg");
+    background-image: url("/add-video-bg2.jpg");
 }
 
 #edit-con-sub {
