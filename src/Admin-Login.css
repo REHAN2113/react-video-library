@@ -1,0 +1,202 @@
+#admin-login-con {
+    height: 100%;
+    background-image: url("../public/admin-login.jpg");
+    background-size: cover;
+}
+
+#admin-login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#admin-login-form dl {
+    width: 40%;
+}
+#admin-login-title span {
+    color: rgb(78, 120, 106);
+    font-size: 18px;
+  
+
+}
+
+
+
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+
+   
+    #admin-login-sub-con {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #admin-login-form {
+        margin: 10px;
+        border-radius: 20px;
+
+        border: 1px solid rgb(255, 255, 255);
+        height: 70%;
+        backdrop-filter: blur(10px);
+
+        justify-content: space-evenly;
+
+
+
+
+    }
+
+    dt,
+    dl {
+        font-size: 10px;
+
+
+    }
+
+    #admin-login-form dl {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 65%;
+    }
+
+    
+
+    #nav-btn-con {
+        border: 1px solid red;
+        width: 120px;
+        display: flex;
+    }
+
+    /* Styles for extra small phones */
+}
+
+/* Small Devices (500px - 900px) */
+@media (min-width: 500px) and (max-width: 900px) {
+  
+
+ 
+
+    #admin-login-sub-con {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+ 
+
+    #admin-login-form {
+        margin: 10px;
+        border-radius: 20px;
+       
+        border: 1px solid rgb(255, 255, 255);
+        height: 70%;
+        backdrop-filter: blur(10px);
+        
+        justify-content: space-evenly;
+       
+    
+
+    }
+
+    dt,
+    dl {
+        font-size: 14px;
+
+
+    }
+
+    #admin-login-form dl {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 65%;
+    }
+
+    #admin-login-title span {
+      
+        font-size: 18px;
+
+    }
+
+    /* Styles for tablets & larger phones */
+}
+
+/* Medium Devices (900px - 1200px) */
+@media (min-width: 900px) and (max-width: 1200px) {
+  
+
+    #admin-login-sub-con {
+        height: 66%;
+        width: 66%;
+        border: 1px solid white;
+        border-radius: 20px;
+
+    }
+
+ 
+    #admin-login-form {
+
+      
+        height: 100%;
+    
+        justify-content: space-around;
+       
+
+
+    }
+
+    
+
+    #admin-login-form dl {
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+    }
+
+  
+
+    /* Styles for laptops */
+}
+
+/* Large Devices (1200px - 1600px) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+ 
+
+    #admin-login-sub-con {
+        height: 66%;
+        width: 66%;
+        border: 1px solid white;
+        border-radius: 20px;
+
+    }
+
+   
+    #admin-login-form {
+
+     
+        height: 100%;
+    
+        justify-content: center;
+        
+      
+
+    }
+
+    #admin-login-form dl {
+        width: 40%;
+        height: 60%;
+    }
+
+    
+    /* Styles for desktops */
+}
+

@@ -1,0 +1,131 @@
+#admin-dashboard-con {
+    height: 100%;
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+}
+#admin-sub-dashboard{
+    display: grid;
+    height: 83%;
+    grid-template-rows: 2fr 10fr;
+}
+
+#addCategory {
+    font-size: 70%;
+}
+
+#video-table-con {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+#add-video-btn-con {
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#search-video-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#video-list-con{
+    height: 100%;
+    overflow: auto;
+   
+}
+#select-category-con{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#select-category-con-child select{
+    width: 50%;
+  }
+  #select-category-con-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+    
+   #backtohomeBtn{
+         display: flex;
+         justify-content: space-between;
+   }
+    #table-headings th{
+        font-size: 10px;
+    }
+    
+    
+    #categoryName,#videoId{
+        font-size: 10px;
+    }
+    
+   .info-text{
+    font-size: 7px;
+   }
+ 
+    .actionBtns{
+        font-size: 7px !important;
+    }
+   
+     iframe{
+      width: 30px;
+      height: 30px;  
+
+    }
+   
+
+ 
+    /* Styles for extra small phones */
+  }
+  
+  /* Small Devices (500px - 900px) */
+  @media (min-width: 500px) and (max-width: 900px) {
+
+    #row{
+       
+        height: 200px;
+    }
+    
+   
+  
+   .info-text{
+    font-size: 12px;
+   }
+
+
+     iframe{
+    width: 100%;
+   
+    height: 100%;
+    }
+ 
+    /* Styles for tablets & larger phones */
+  }
+  
+  /* Medium Devices (900px - 1200px) */
+  @media (min-width: 900px) and (max-width: 1200px) {
+
+     
+   .info-text{
+    font-size: 12px;
+   }
+  
+  
+  
+
+    /* Styles for laptops */
+  }
+  
+  /* Large Devices (1200px - 1600px) */

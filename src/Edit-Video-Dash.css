@@ -1,0 +1,129 @@
+/* Common Styles */
+#edit-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../public/add-video-bg2.jpg");
+    height: 92%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#edit-parent-con {
+    background-image: url("../public/add-video-bg2.jpg");
+}
+
+#edit-con-sub {
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-details {
+    overflow: auto;
+}
+
+#add-video-form {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#form-sub-con {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 6fr 2fr;
+    column-gap: 10px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#video-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Btns {
+    font-size: 10px !important;
+    height: 30px;
+}
+
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+    #edit-con-sub {
+        width: 100%;
+    }
+
+    #edit-details {
+        height: 80%;
+    }
+
+    #form-sub-con {
+        height: 90%;
+        padding: 20px;
+    }
+
+    #edit-details dd input {
+        font-size: 10px;
+    }
+    #form-sub-con dt{
+        font-size:7px ;
+    }
+    #video-thumbnail {
+        height: 20%;
+    }
+}
+
+/* Small Devices (500px - 900px) */
+@media (min-width: 500px) and (max-width: 900px) {
+    #edit-con-sub {
+        width: 100%;
+    }
+
+    #edit-details {
+        height: 80%;
+    }
+
+    #video-thumbnail {
+        height: 20%;
+    }
+}
+
+/* Medium Devices (900px - 1200px) */
+@media (min-width: 900px) and (max-width: 1200px) {
+    #edit-con-sub {
+        width: 86%;
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+    }
+
+    #video-thumbnail {
+        height: 100%;
+    }
+}
+
+/* Large Devices (1200px - 1600px) */
+@media (min-width: 1200px) and (max-width: 3000px) {
+    #edit-con-sub {
+        width: 86%;
+        display: grid;
+        grid-template-columns: 8fr 4fr;
+    }
+
+    #video-thumbnail {
+        height: 100%;
+    }
+}
+
+/* Extra Large Devices (1600px and above) */
+
+
+

@@ -1,0 +1,192 @@
+#user-login-con {
+    height: 100%;
+}
+
+#user-login-sub-con {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#formLogin {
+    color: white;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-quote {
+    height: 76%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(248, 225, 255), rgb(202, 244, 255), rgb(49, 255, 142));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+
+    nav{
+ margin-left: 10px;
+ margin-right: 10px;
+    }
+    #nav-menu{
+        flex-direction: column;
+    }
+  
+    #login-form{
+        width: 80%;
+        height: 60%;
+        backdrop-filter: blur(10px);
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    #login-title{
+        height:15%;
+        border: 1px solid rgb(210, 250, 255);
+     color: whitesmoke;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+  
+    #login-quote{
+       display: none;    
+    }
+
+   #btnLogin, #btnHome{
+    font-size: 10px !important;
+   }
+
+
+
+
+    /* Styles for extra small phones */
+  }
+  
+  /* Small Devices (500px - 900px) */
+  @media (min-width: 500px) and (max-width: 900px) {
+
+    
+   
+   
+
+    #login-form{
+        width: 80%;
+        height: 80%;
+        backdrop-filter: blur(10px);
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    #login-title{
+        height: 10%;
+     color: whitesmoke;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+ 
+    #login-quote{
+       display: none;  
+    }
+ 
+   
+   
+   
+    /* Styles for tablets & larger phones */
+  }
+  
+  /* Medium Devices (900px - 1200px) */
+  @media (min-width: 900px) and (max-width: 1200px) {
+  
+  
+
+    #login-form{
+        width: 40%;
+        height: 60%;
+        backdrop-filter: blur(10px);
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    #login-title{
+        height: 20%;
+        color: whitesmoke;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #login-quote{
+     
+        font-size: 30px;
+        width: 40%;
+    
+    }
+  
+ 
+    /* Styles for laptops */
+  }
+  
+  /* Large Devices (1200px - 1600px) */
+  @media (min-width: 1200px) and (max-width: 1600px) {
+
+   
+    #login-form{
+        width: 30%;
+        height: 60%;
+        backdrop-filter: blur(10px);
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #login-title{
+        height: 20%;
+     color: whitesmoke;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #login-quote{
+     
+      
+        font-size: 40px;
+       
+        width: 50%;
+        
+        
+    }
+  
+
+   
+  
+    /* Styles for desktops */
+  }
+  
+ 

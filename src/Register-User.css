@@ -1,0 +1,247 @@
+
+#register-con {
+    height: 100%;
+}
+
+#register-sub-con {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#create-user-con {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#create-heading{
+    
+       
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(176, 255, 255);
+}
+
+#create-form {
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    backdrop-filter: blur(10px);
+}
+#create-form-body{
+    height: 100%; 
+    display: grid;
+    color: white;
+   
+    
+
+}
+
+#btn-con {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+ 
+     #nav-menu{
+        
+        display: grid;
+        grid-template-rows: 6fr 6fr;
+        text-align: center;
+
+     }
+
+  
+    #create-quote{
+        
+        display: none;
+       
+    }
+   
+    #create-heading{
+        font-size: 14px;
+      
+    }
+    #create-form-body{
+      
+       
+       width: 100%;
+      
+      
+        grid-template-columns: 3.5fr 6.5fr 2fr;
+      
+        padding: 19px;
+        
+    
+    }
+    .errors{
+        font-size: 7px;
+        text-align: center;
+    }
+    
+    input{
+        height: 20px;
+      
+       
+
+    }
+    ::placeholder{
+        font-size: 7px;
+        transform: translateY(-3px)
+    }
+  
+    .label{
+        font-size: 8px;
+    }
+
+  
+   #btnSubmit,#backtoHome{
+    font-size: 8px; 
+
+   }
+    /* Styles for extra small phones */
+  }
+  
+  /* Small Devices (500px - 900px) */
+  @media (min-width: 500px) and (max-width: 900px) {
+  
+    
+ 
+
+    
+ 
+    #create-quote{
+        
+        display: none;
+       
+    }
+   
+    #create-heading{
+        font-size: 20px;
+       
+    }
+    #create-form-body{
+        height: 100%;
+        grid-template-columns: 5fr 5fr 2fr;
+        padding: 50px;
+        
+    
+    }
+  
+
+    .errors{
+        font-size: 14px;
+    }
+    .fields{
+        width: 90%;
+      
+    }
+    dt{
+        text-align: center;
+    }
+ 
+    /* Styles for tablets & larger phones */
+  }
+  
+  /* Medium Devices (900px - 1200px) */
+  @media (min-width: 900px) and (max-width: 1200px) {
+    
+    #create-quote{
+        
+        display: none;
+       
+    }
+  
+    #create-heading{
+    
+       
+       
+        transform: translateY(-25px);
+        font-size: 25px;
+        color: rgb(176, 255, 255);
+    }
+    #create-form-body{
+
+        grid-template-columns: 5fr 5fr 2fr;
+       
+        padding: 50px;
+        
+    
+    }
+  
+    .errors{
+        font-size: 14px;
+    }
+    .fields{
+        width: 90%;
+      
+    }
+    dt{
+    
+        text-align: center;
+    }
+
+ 
+    /* Styles for laptops */
+  }
+  
+  /* Large Devices (1200px - 1600px) */
+  @media (min-width: 1200px) and (max-width: 1600px) {
+   
+    #create-quote{
+        
+        display: flex;
+        justify-content: center;
+        height: 50%;
+        width: 50%;
+        font-size: 40px;
+        font-weight: bold;
+        background: linear-gradient(to right , rgb(248, 225, 255) ,rgb(202, 244, 255), rgb(49, 255, 142));
+        -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+    #create-form{
+       
+        border-left: 1px solid rgb(255, 255, 255);
+        border-right: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-top-right-radius: 100px;
+        border-top-left-radius: 100px;
+        width: 85%;
+        backdrop-filter: blur(10px);
+    }
+    #create-heading{
+    
+       
+       
+        transform: translateY(-20px);
+        font-size: 25px;
+       
+    }
+    #create-form-body{
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+        justify-content: space-around;
+    
+    }
+    dl dt{
+        color: white;
+    }
+  
+    /* Styles for desktops */
+  }
+  

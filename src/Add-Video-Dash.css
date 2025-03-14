@@ -1,0 +1,61 @@
+
+#add-video-dash-con {
+    height: 100%;
+    background-image: url("/public/add-video-bg2.jpg");
+    background-repeat: no-repeat;
+}
+
+#add-video-sub-con {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#add-video-form-dl {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-left: 10px;
+}
+
+#add-video-form-dl dt{
+    color: white;
+}
+
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+  
+ 
+
+   #add-video-form-dl dt{
+    
+    font-size: 8px;
+   }
+   #SelectCategory{
+    font-size: 6px !important;
+   }
+   
+    /* Styles for extra small phones */
+  }
+  
+  /* Small Devices (500px - 900px) */
+  @media (min-width: 500px) and (max-width: 900px) {
+   #add-video-form-dl dt{
+    
+    font-size: 12px;
+   }
+    /* Styles for tablets & larger phones */
+  }
+  
+  /* Medium Devices (900px - 1200px) */
+
+  
+  /* Large Devices (1200px - 1600px) */
+ 

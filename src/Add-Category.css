@@ -1,0 +1,122 @@
+#add-category-con {
+    height: 100%;
+    background-image: url("../public/add-video-bg2.jpg");
+    color: white;
+}
+
+#add-category-sub-con {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-category-form-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-category-form-con dl {
+    width: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+  
+    #categoryID , #categoryName{
+        font-size: 10px;
+    }
+
+    #saveCategoryBtn,#goBackBtn{
+        font-size: 6px !important;
+    }
+    #add-category-form-con{
+        height: 100%;
+        width: 100%;
+       
+    }
+    #add-category-form-con dl{
+        height: 30%;
+        width: 50%;
+        padding: 10px;
+        
+        
+    }
+   
+    /* Styles for extra small phones */
+  }
+  
+  /* Small Devices (500px - 900px) */
+  @media (min-width: 500px) and (max-width: 900px) {
+  
+    #categoryID , #categoryName{
+        font-size: 10px;
+    }
+    
+    #saveCategoryBtn ,#goBackBtn{
+        font-size: 10px;
+    }
+    #add-category-form-con{
+        height: 100%;
+        width: 100%;
+       
+    }
+    #add-category-form-con dl{
+        height: fit-content;
+        width: 50%;
+        padding: 10px;
+        
+    }
+    #categoryform-dl dd input{
+        height: 30px;
+    }
+    #categoryform-dl dt{
+        margin-bottom: 13px;
+    }
+    /* Styles for tablets & larger phones */
+  }
+  
+  /* Medium Devices (900px - 1200px) */
+  @media (min-width: 900px) and (max-width: 1200px) {
+  
+
+    #add-category-form-con{
+        height: 100%;
+        width: 100%;
+       
+    }
+    #add-category-form-con dl{
+        height: 40%;
+        width: 50%;
+        
+    }
+    /* Styles for laptops */
+  }
+  
+  /* Large Devices (1200px - 1600px) */
+  @media (min-width: 1200px) and (max-width: 3000px) {
+
+    #add-category-form-con{
+        height: 66%;
+        width: 60%;
+        
+    }
+    #add-category-form-con dl{
+        height: 60%;
+        width: 50%;
+        
+    }
+    /* Styles for desktops */
+  }
+  
+  /* Extra Large Devices (1600px and above) */
+
+  

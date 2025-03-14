@@ -1,0 +1,228 @@
+#iframevideo {
+    height: 370px;
+    width: 100%;
+}
+
+#playing-video-con {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 7fr 5fr;
+    overflow: auto;
+}
+
+#user-dashboard-grid {
+
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+#user-display-videos-sub-con,
+#user-display-videos-con {
+    overflow: auto;
+}
+
+#card-footer {
+    height: 100%;
+}
+
+#comments {
+    overflow: auto;
+    height: 100%;
+}
+
+#sendCommentBtn,
+#comment-input-field {
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-comment {
+    height: 100%;
+}
+
+#card-footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 100%;
+
+}
+
+
+#comments-main-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+#user-comment-con {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px;
+
+    border-bottom: 1px solid rgb(19, 19, 19);
+    background-color: rgb(28, 28, 28);
+}
+
+
+#user-comment {
+       
+   color: white;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 100%;
+    border-radius: 10px;
+   
+
+}
+#comment-input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#commentError {
+    font-size: 10px;
+}
+#card-footer div {
+
+    display: flex;
+    padding: 3px;
+
+}
+#LikesViews {
+    color: gray;
+}
+#userid {
+   
+    color: rgb(214, 214, 214);
+    font-size: 10px;
+    font-weight: bold;
+}
+#comments-sub-con{
+    overflow: auto;
+    height: 550px;
+}
+.btns {
+    font-size: 8px !important;
+}
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 900px) {
+
+   
+
+    #iframevideo {
+        height: 200px !important;
+    }
+
+    #videoDescription {
+        font-size: 8px;
+
+
+    }
+
+    #videoTitle {
+        font-size: 10px;
+    }
+
+    #LikedVideoBtn,
+    #WatchLaterBtn {
+        font-size: 10px !important;
+    }
+
+    #LikesViews {
+        font-size: 8px;    
+    }
+
+    #input-group-comment {
+
+        height: 26px;
+    }
+
+    #sendCommentBtn,
+    #comment-input-field {
+        font-size: 10px;
+    }
+
+    #comments-main-con {
+        height: 177px;
+    }
+
+    #user-comment {
+        font-size: 9px;   
+    }
+
+    /* Styles for extra small phones */
+}
+
+/* Small Devices (500px - 900px) */
+@media (min-width: 500px) and (max-width: 900px) {
+    #videoTitle {
+        font-size: 16px;
+    }
+    /* Styles for tablets & larger phones */
+}
+
+/* Medium Devices (900px - 1200px) */
+@media (min-width: 900px) {
+
+   
+
+    #iframevideo {
+        height: 400px !important;
+    }
+
+    #videoDescription {
+        font-size: 14px;
+
+
+    }
+
+    #videoTitle {
+        font-size: 20px;
+    }
+
+    #LikedVideoBtn,
+    #WatchLaterBtn {
+        font-size: 14px !important;
+    }
+    #LikesViews {
+        font-size: 12px;   
+    }
+
+    #input-group-comment{
+        height: 36px;
+    }
+
+    #sendCommentBtn,
+    #comment-input-field {
+        font-size: 10px;
+    }
+
+    #comments-main-con {
+        height: 400px;
+    }
+
+    
+    #user-comment {
+       
+        font-size: 16px;
+        
+    }
+
+    /* Styles for laptops */
+}
+
+/* Large Devices (1200px - 1600px) */
+
+

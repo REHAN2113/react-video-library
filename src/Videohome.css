@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+}
+
+#video-home-con {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-menu {
+  display: flex;
+}
+
+#nav-menu span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 92%;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+#title {
+  color: rgb(205, 237, 255);
+  font-weight: bold;
+}
+
+#heading {
+  height: 40%;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, rgb(182, 240, 255), rgb(255, 231, 252), rgb(151, 254, 254));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: justify;
+}
+
+#get-started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-con {
+  border-radius: 20px;
+}
+
+#admin-accessBtn {
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  color: rgb(0, 37, 74);
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgb(235, 250, 255), rgb(204, 235, 246), rgb(185, 235, 252));
+}
+
+#sub-btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#signInBtn {
+  background: linear-gradient(to right, rgb(231, 255, 253), rgb(187, 209, 244), rgb(158, 187, 249));
+  font-weight: bold;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#createBtn {
+  background: linear-gradient(to right, rgb(245, 236, 254), rgb(237, 195, 255), rgb(255, 171, 252));
+  font-weight: bold;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Extra Small Devices (300px - 500px) */
+@media (min-width: 300px) and (max-width: 500px) {
+
+
+  #nav-menu {
+    flex-direction: column;
+    align-items: center;
+    font-size: 8px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  #container {
+    height: 50%;
+  }
+
+  #title {
+
+    font-size: 10px;
+
+  }
+
+  #heading {
+
+    font-size: 16px;
+    display: flex;
+    align-items: end;
+    height: 90%;
+    padding: 10px;
+
+  }
+
+  #get-started {
+
+    height: 100%;
+    width: 100%;
+
+
+  }
+
+  #btn-con {
+    height: 80%;
+    width: 90%;
+
+  }
+
+  #admin-accessBtn {
+    font-size: 8px;
+    width: 80px;
+    padding: 4px;
+  }
+
+
+  #sub-btn-con {
+    height: 40%;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+
+  #createBtn,
+  #signInBtn {
+    font-size: 14px;
+
+
+  }
+
+  /* Styles for extra small phones */
+}
+
+/* Small Devices (500px - 900px) */
+@media (min-width: 500px) and (max-width: 900px) {
+
+  #nav-menu {
+
+    justify-content: space-around;
+    width: 150px;
+    font-size: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  #container {
+    height: 100%;
+  }
+
+  #title {
+
+    font-size: 16px;
+  }
+
+  #heading {
+    height: 70%;
+    align-items: end;
+    display: flex;
+    font-size: 24px;
+    padding: 30px;
+
+  }
+
+  #get-started {
+
+    height: 100%;
+    width: 100%;
+
+
+  }
+
+  #btn-con {
+    height: 80%;
+    width: 80%;
+
+  }
+
+  #create-link,
+  #login-link {
+    font-size: 12px;
+  }
+
+  #admin-accessBtn {
+    font-size: 8px;
+    width: 80px;
+    padding: 4px;
+
+  }
+
+  #sub-btn-con {
+    height: 40%;
+    width: 100%;
+  }
+
+  #signInBtn {
+    height: 50px;
+
+  }
+
+  #createBtn {
+
+    height: 50px;
+
+  }
+
+  /* Styles for tablets & larger phones */
+}
+
+/* Medium Devices (900px - 1200px) */
+@media (min-width: 900px) and (max-width: 1200px) {
+
+
+
+  #nav-menu {
+
+    justify-content: space-around;
+    width: 150px;
+    font-size: 10px;
+  }
+
+
+  main {
+    flex-direction: column;
+
+  }
+
+  #container {
+
+    height: 40%;
+    justify-content: center;
+  }
+
+  #heading {
+    font-size: 33px;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+
+    align-items: end;
+
+  }
+
+  #get-started {
+
+    height: 100%;
+    width: 50%;
+
+  }
+
+  #btn-con {
+    height: 80%;
+    width: 80%;
+  }
+
+  #admin-accessBtn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #sub-btn-con {
+    height: 40%;
+  }
+
+  #signInBtn {
+
+    width: 40%;
+    height: 50px;
+
+  }
+
+  #createBtn {
+
+    width: 40%;
+    height: 50px;
+
+  }
+
+  /* Styles for laptops */
+}
+
+/* Large Devices (1200px - 1600px) */
+/* ............Large Scale 1200px  */
+@media (min-width: 1200px) and (max-width: 3000px) {
+  /* Styles for desktops */
+
+
+  #nav-menu {
+    width: 20%;
+    justify-content: space-around;
+  }
+
+
+
+  #container {
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+    justify-items: start;
+  }
+
+
+
+  #heading {
+    font-size: 37px;
+    padding: 30px;
+  }
+
+  #get-started {
+    height: 100%;
+    width: 50%;
+  }
+
+  #btn-con {
+    height: 80%;
+    width: 80%;
+  }
+
+  #admin-accessBtn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #sub-btn-con {
+    height: 40%;
+
+
+  }
+
+  #signInBtn {
+
+    width: 40%;
+    height: 50px;
+
+  }
+
+  #createBtn {
+
+    width: 40%;
+    height: 50px;
+
+
+  }
+  #createLink,#loginLink{
+    margin-right: 4px;
+
+  }
+ 
+}
